@@ -1,3 +1,18 @@
+
+@import url(/style/header.css);
+);
+:root{
+     --cor-princripal: #ffffff;
+      --cor-secundaia: #f30909;
+      --cor-escrita: #000000;
+     --cor-defundo: #fabcbc;
+
+
+
+
+}
+
+
 *{
     margin: 0;
     padding: 0;
