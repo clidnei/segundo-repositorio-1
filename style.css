@@ -1,6 +1,6 @@
 
 @import url(/style/header.css);
-);
+
 :root{
      --cor-princripal: #ffffff;
       --cor-secundaia: #f30909;
@@ -31,7 +31,7 @@ body  {
     justify-content;: space-
     padding: 24px;
 }
-
+/
 .cabecalho{
 
 }

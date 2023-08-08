@@ -1,0 +1,20 @@
+.cabecalho{
+display: flex;
+justify-content: space-between;
+background-color: aqua;
+position: relative;
+
+
+.cabecalho_menu {
+display: inline-block;
+background-image: none;
+
+
+
+
+
+}
+
+
+
+}
