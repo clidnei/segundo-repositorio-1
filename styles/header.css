@@ -22,7 +22,6 @@
         }
 
         .container__imagem {
-            width: 10%.bpo;
             padding: 1em;
         }
 
@@ -34,11 +33,11 @@
             width: 60vw;
         }
 
-        .container__menu:checked~.cabecalho-lista {
+        .container__botão:checked~.cabecalho-lista {
             display: block;
         }
 
-        .container__menu {
+        .container__botão {
             display: none;
         }
 
@@ -65,7 +64,7 @@
           font-size: 30px;
         }
      
-        .cabecalho__menu
+        .cabecalho__botão
           display: none;
           ;
     
