@@ -1,18 +1,19 @@
 .cabecalho {
+    background-color: var(--cor-principal);
     display: flex;
     justify-content: space-between;
     background-color: aqua;
-    position: relative;
     align-items: center;
+    position: relative;
 
 
     .cabecalho_menu {
-        display: inline-block;
+        width: 24px;
+        height: 24px;
         background-image: url("../img/menu.svg");
         background-repeat: no-repeat;
         background-position: center;
-        width: 24px;
-        height: 24px;
+        display: inline-block;
 
 
         .container {
@@ -24,13 +25,18 @@
         .container__imagem {
             padding: 1em;
         }
+        
+        .container__imagem{
+           padding: 1em;
+           width: 40px;
 
-        .cabecalho-lista {
-            display: none;
-            background-color: aqua;
+        }
+        .cabecalho-lista{
+            display:none;
+            background-color: var(--cor-de-fundo);
             position: absolute;
             top: 100%;
-            width: 60vw;
+            width: 50vw;
         }
 
         .container__botão:checked~.cabecalho-lista {
@@ -42,19 +48,36 @@
         }
 
         .cabecalho-lista-titulo{
-            /* color: var(--roxo) */
+            padding: 1em;
+            color: var(--azul);
+            font-weight: 700;
+            text-transform: uppercase;
         }
 
     .cabecalho-lista-item{
+        padding: 1em
         color: var(--azul);
-    } padding: 1em
+    } 
 
+    .container-titulo{
+        display: none;
+    }
 
     .menu__lista-item{
+        background: var(--cor-principal);
       color:var(--azul);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-transform: uppercase;
 }
-    
-
+    .opcoes {
+       display: none; 
+    }
+ 
+    .container__texto{
+        display: none;
+    }
 
        @media screen and (min-width: 1024px){
          .container-titulo
@@ -68,3 +91,17 @@
           display: none;
           ;
     
+
+          .cabecalho__favorito{
+            display: none;
+          }
+
+          .opcoes{
+            display: flex;
+          }
+
+          .opcoes__item{
+            padding: 0 2em;
+            text-transform: uppercase;
+            color: var(--branco);
+          }
