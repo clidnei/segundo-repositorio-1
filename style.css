@@ -1,4 +1,6 @@
 @import url(/styles/header.css);
+@import url(/styles/carrosel.css);
+@import url(/styles/baner.css);
 
 :root {
     --cor-principal: rgba(0, 0, 0, 0.76);
@@ -11,18 +13,12 @@
 }
 
 body {
-    background-color: black;
-    color: white;
+    background-color: var(--cor-de-fundo);
     font-family: var(--fonte-secundaria);
-    margin: 0;
-    padding: 0;
 }
 
-header {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 1em 0;
+h1{
+    color: var(--branco);
 }
 
 .secao1 {
@@ -39,7 +35,7 @@ header {
 }
 
 .secao1-imagem {
-    width: 10%;
+    width: 40%;
 }
 
 .secao1-div-conteudo {
@@ -47,11 +43,30 @@ header {
 }
 
 .nome-img {
-    width: 150px;
-
+    width: 200px;
 }
 
+.div-apresentacao{
+    text-align: center;
+    padding: 16px;
+}
+
+apresentacao-titulo{
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.icones{
+    display: flex;
+    justify-content: center;
+}
+.
 .icon-redes {
     width: 24px;
-    padding: 4px 8px;
+    padding: 4px 20px
+    
+.section3-img-1{
+    width: ;
 }

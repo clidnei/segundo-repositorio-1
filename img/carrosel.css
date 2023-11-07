@@ -1,6 +1,4 @@
-.carrosel{
-    background-color: var(--cor-defundo);
-}
+
 .carrosel__titulo{
     color: var(--preto);
     background-color: var(--cor-principal);
