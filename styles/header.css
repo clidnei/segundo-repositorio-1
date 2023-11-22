@@ -2,7 +2,6 @@
     background-color: var(--cor-principal);
     display: flex;
     justify-content: space-between;
-    background-color: aqua;
     align-items: center;
     position: relative;
 }
