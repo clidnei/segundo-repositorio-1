@@ -1,15 +1,27 @@
 @import url(/styles/header.css);
-@import url(/styles/carrosel.css);
 @import url(/styles/banner.css);
+@import url(/styles/carrossel.css);
+@import url(/styles/topicos.css);
+@import url(/styles/contato.css);
+@import url(/styles/rodape.css);
 
 :root {
-    --cor-principal: rgba(0, 0, 0, 0.76);
-    --cor-secundaria: rgb(122, 119, 119);
-    --cor-terciaria: rgba(28, 15, 141, 0.589);
-    --cor-de-escrita: rgb(255, 255, 255);
-    --fonte-principal: "Oswald";
-    --fonte-secundaria: "Bebas"
-
+    --cor-principal:#262597;
+    --cor-secundaria: #A3108B;
+    --cor-3: #E53470;
+    --cor-4: #FF7656;
+    --cor-5: #FFB84D;
+    --cor-6: #F9F871;
+    --cor-de-fundo: #EBECEE;
+    --branco:#FFFFFF;
+    --preto: #000000;
+    --roxo: #9949B4;
+    --amarelo: #F1F10E;
+    --azul: #3d89ec;
+    --azul-degrade: linear-gradient(#262597,#16CFF8);;
+    --fonte-principal: "Roboto";
+    --fonte-secundaria: "Prompt";
+} 
 }
 
 body {
@@ -22,7 +34,7 @@ h1{
 }
 
 .secao1 {
-    background-image: linear-grhttps; /docs.google.com/presentation/d/1cyo5xvQlG74sbtKy32TJg16YawFCigh1mEH8QoBMlH0/edit?usp=sharingadient(#424E61,#16CFF8);
+    background-image: linear-gradient(#424E61,#16CFF8);
     color:white;
     display: flex;
     justify-content: center;
