@@ -74,11 +74,12 @@ apresentacao-titulo{
     display: flex;
     justify-content: center;
 }
-.
+
 .icon-redes {
     width: 24px;
     padding: 4px 20px
-    
+}
+
 .section3-img-1{
-    width: ;
+    width: 40%;
 }
