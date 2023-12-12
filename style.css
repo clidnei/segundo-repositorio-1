@@ -13,7 +13,7 @@
     --cor-5: #FFB84D;
     --cor-6: #F9F871;
     --cor-de-fundo: #fffb00;
-    --branco:#FFFFFF;
+    --branco:#0f73e6;
     --preto: #000000;
     --roxo: #9949B4;
     --amarelo: #F1F10E;
@@ -25,7 +25,7 @@
 }
 
 body {
-    background-color: var(--cor-de-fundo);
+    background-color: var(--cor-principal);
     font-family: var(--fonte-secundaria);
 }
 
